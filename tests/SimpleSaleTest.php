@@ -16,7 +16,7 @@ final class SimpleSaleTest extends TestCase
       $ci = new CardInfo([
         'number'=>'4111111111111111',
         'expiration'=>Carbon::create(2010, 10, 1, 0, 0, 0),
-        'cvv'=>999,
+        'cvv'=>'999',
       ]);
       $res = $c->simpleSale(9.95, $ci);
       $this->assertEquals(1, $res->response);
