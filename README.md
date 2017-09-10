@@ -1,2 +1,3 @@
-# sparrow-api-php
-Code samples for php.
+# Running Tests
+
+`phpunit --bootstrap tests/bootstra.php tests`

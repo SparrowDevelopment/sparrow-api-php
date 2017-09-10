@@ -1,0 +1,25 @@
+{
+    "name": "sparrow/php-api",
+    "description": "Sparrow payment gateway API bindings",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben Allfree",
+            "email": "ben@benallfree.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^1.22",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sparrow\\": "src/Sparrow"
+        }
+    },
+    
+    "require-dev": {
+        "phpunit/phpunit": "^6.2",
+        "vlucas/phpdotenv": "^2.4"
+    }
+}
