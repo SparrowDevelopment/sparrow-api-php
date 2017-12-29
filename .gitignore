@@ -1,0 +1,5 @@
+composer.phar
+.env
+.settings/
+vendor/
+.metadata/
